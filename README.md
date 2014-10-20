@@ -10,6 +10,7 @@ Go ahead and show tables, desc tables etc to get an idea.
 Database user is readonly obviously.
 
 
+@todos
 * classify the query code - done
 * separate out the db source (sugarcrm, pdo, wp, drupal, etc)
 * fix result count for update statements
