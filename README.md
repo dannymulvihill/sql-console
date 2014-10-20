@@ -1,5 +1,14 @@
 SQL-Console
 
+This little project started as a way to get database access for SugarCRM customers in the OnDemand environment.
+Currently all the Sugar stuff is stripped out.
+
+Here is a demo: http://sql-console.ninjacode.co/
+
+Go ahead and show tables, desc tables etc to get an idea.
+
+Database user is readonly obviously.
+
 
 * classify the query code - done
 * separate out the db source (sugarcrm, pdo, wp, drupal, etc)
