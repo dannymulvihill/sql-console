@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    height: 100%;
+}
+textarea.console, .history {
+    width: 100%;
+    white-space: nowrap;
+    font-family: Consolas, Courier;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    border: none;
+    margin: 0;
+    white-space: pre;
+
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+}
+textarea.console {
+    padding-top: 0;
+}
+.history {
+    padding-bottom: 0;
+}
+
+textarea.console:focus,
+textarea.console:active {
+    outline: none !important;
+    -webkit-appearance: none;
+}
+
+.settings {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 24px;
+    width: 50px;
+    line-height: 24px;
+    padding: 0 28px 0 5px;
+    background: #666 url('/images/cog.png') no-repeat center right;
+    border-bottom-left-radius: 3px;
+}
+.settings a.dropdown-toggle:link,
+.settings a.dropdown-toggle:visited,
+.settings a.dropdown-toggle:hover,
+.settings a.dropdown-toggle:active,
+.settings a.dropdown-toggle:focus {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    width: 83px;
+    outline: none;
+}
+.settings li b {
+    padding-left: 10px;
+    color: #333;
+}
+/*****************************************************
+********************** THEMES ************************
+*****************************************************/
+
+/* default -- black and neon green */
+.tron {
+    background-color: #000;
+    color: #36d317;
+}
+li.tron,
+li.tron a:link,
+li.tron a:visited {
+    background-image: inherit !important;
+    background-color: inherit;
+}
+li.tron:hover,
+li.tron a:hover,
+li.tron a:active,
+li.tron a:focus {
+    background-image: none !important;
+    background-color: #000;
+    color: #36d317;
+}
+
+/* blue-gray and gray */
+.solarized {
+    background-color: #002833;
+    color: #839496;
+}
+li.solarized,
+li.solarized a:link,
+li.solarized a:visited {
+    background-image: inherit !important;
+    background-color: inherit;
+}
+li.solarized:hover,
+li.solarized a:hover,
+li.solarized a:active,
+li.solarized a:focus {
+    background-image: none !important;
+    background-color: #002833;
+    color: #839496;
+}
+
+/* black and orange */
+.spark {
+    background-color: #000;
+    color: #f9a500;
+}
+li.spark,
+li.spark a:link,
+li.spark a:visited {
+    background-image: inherit !important;
+    background-color: inherit;
+}
+li.spark:hover,
+li.spark a:hover,
+li.spark a:active,
+li.spark a:focus {
+    background-image: none !important;
+    background-color: #000;
+    color: #f9a500;
+}
